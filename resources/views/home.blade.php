@@ -6,13 +6,16 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
         <title>Blog Home - Start Bootstrap Template</title>
+
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Core theme CSS (includes Bootstrap)-->
+
+        <!-- Core theme CSS (includes Bootstrap) -->
         <link href="{{ asset('css/styles.css') }}" rel="stylesheet" />
     </head>
     <body>
-        <!-- Responsive navbar-->
+
+        <!-- Responsive navbar -->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
                 <a class="navbar-brand" href="#!">Start Bootstrap</a>
@@ -27,7 +30,8 @@
                 </div>
             </div>
         </nav>
-        <!-- Page header with logo and tagline-->
+
+        <!-- Page header with logo and tagline -->
         <header class="py-5 bg-light border-bottom mb-4">
             <div class="container">
                 <div class="text-center my-5">
@@ -36,12 +40,15 @@
                 </div>
             </div>
         </header>
-        <!-- Page content-->
+
+        <!-- Page content -->
         <div class="container">
             <div class="row">
-                <!-- Blog entries-->
+
+                <!-- Blog entries -->
                 <div class="col-lg-8">
-                    <!-- Featured blog post-->
+
+                    <!-- Featured blog post -->
                     <div class="card mb-4">
                         <a href="#!"><img class="card-img-top" src="https://dummyimage.com/850x350/dee2e6/6c757d.jpg" alt="..." /></a>
                         <div class="card-body">
@@ -51,10 +58,12 @@
                             <a class="btn btn-primary" href="#!">Read more →</a>
                         </div>
                     </div>
-                    <!-- Nested row for non-featured blog posts-->
+
+                    <!-- Nested row for non-featured blog posts -->
                     <div class="row">
                         <div class="col-lg-6">
-                            <!-- Blog post-->
+
+                            <!-- Blog post -->
                             <div class="card mb-4">
                                 <a href="#!"><img class="card-img-top" src="https://dummyimage.com/700x350/dee2e6/6c757d.jpg" alt="..." /></a>
                                 <div class="card-body">
@@ -64,7 +73,8 @@
                                     <a class="btn btn-primary" href="#!">Read more →</a>
                                 </div>
                             </div>
-                            <!-- Blog post-->
+
+                            <!-- Blog post -->
                             <div class="card mb-4">
                                 <a href="#!"><img class="card-img-top" src="https://dummyimage.com/700x350/dee2e6/6c757d.jpg" alt="..." /></a>
                                 <div class="card-body">
@@ -76,7 +86,8 @@
                             </div>
                         </div>
                         <div class="col-lg-6">
-                            <!-- Blog post-->
+
+                            <!-- Blog post -->
                             <div class="card mb-4">
                                 <a href="#!"><img class="card-img-top" src="https://dummyimage.com/700x350/dee2e6/6c757d.jpg" alt="..." /></a>
                                 <div class="card-body">
@@ -86,7 +97,8 @@
                                     <a class="btn btn-primary" href="#!">Read more →</a>
                                 </div>
                             </div>
-                            <!-- Blog post-->
+
+                            <!-- Blog post -->
                             <div class="card mb-4">
                                 <a href="#!"><img class="card-img-top" src="https://dummyimage.com/700x350/dee2e6/6c757d.jpg" alt="..." /></a>
                                 <div class="card-body">
@@ -98,7 +110,8 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Pagination-->
+
+                    <!-- Pagination -->
                     <nav aria-label="Pagination">
                         <hr class="my-0" />
                         <ul class="pagination justify-content-center my-4">
@@ -112,9 +125,11 @@
                         </ul>
                     </nav>
                 </div>
-                <!-- Side widgets-->
+                
+                <!-- Side widgets -->
                 <div class="col-lg-4">
-                    <!-- Search widget-->
+
+                    <!-- Search widget -->
                     <div class="card mb-4">
                         <div class="card-header">Search</div>
                         <div class="card-body">
@@ -124,7 +139,7 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Categories widget-->
+                    <!-- Categories widget -->
                     <div class="card mb-4">
                         <div class="card-header">Categories</div>
                         <div class="card-body">
@@ -146,7 +161,8 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Side widget-->
+
+                    <!-- Side widget -->
                     <div class="card mb-4">
                         <div class="card-header">Side Widget</div>
                         <div class="card-body">You can put anything you want inside of these side widgets. They are easy to use, and feature the Bootstrap 5 card component!</div>
@@ -154,13 +170,16 @@
                 </div>
             </div>
         </div>
-        <!-- Footer-->
+
+        <!-- Footer -->
         <footer class="py-5 bg-dark">
             <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2023</p></div>
         </footer>
-        <!-- Bootstrap core JS-->
+
+        <!-- Bootstrap core JS -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
+
+        <!-- Core theme JS -->
         <script src="{{ asset('js/scripts.js') }}"></script>
     </body>
 </html>
