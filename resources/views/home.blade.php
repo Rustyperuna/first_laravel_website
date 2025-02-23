@@ -143,17 +143,19 @@
 
                                 <div class="col-sm-6">
                                     <ul class="list-unstyled mb-0">
-                                        <li><a href="#!">Web Design</a></li>
-                                        <li><a href="#!">HTML</a></li>
-                                        <li><a href="#!">Freebies</a></li>
-                                    </ul>
-                                </div>
 
-                                <div class="col-sm-6">
-                                    <ul class="list-unstyled mb-0">
-                                        <li><a href="#!">JavaScript</a></li>
-                                        <li><a href="#!">CSS</a></li>
-                                        <li><a href="#!">Tutorials</a></li>
+                                        <!-- 
+                                        Foreach-loop to display the contents from "index()" public function 
+                                        from /app/Http/Controllers/HomeController.php
+                                        
+                                        Requires a controller (/app/Http/Controllers/HomeController.php) to handle the data.
+                                        Requires a view (home.blade.php) to "view" the data.
+                                        Requires a route (/resources/routes/web.php) to the controller to pass the data.
+                                        -->
+                                        @foreach($categories as $category)
+                                            <li><a href="#!">{{ $category->name }}</a></li>
+                                        @endforeach
+
                                     </ul>
                                 </div>
 
