@@ -24,7 +24,8 @@ class HomeController extends Controller
 {
     // Public function that contains an array and the contents are displayed on the home page.
     // Public = accessible anywhere.
-    public function index(){
+    public function index()
+    {
 
         // Declare "allCategories" variable with an array of data.
         // $allCategories = ['Category 1', 'Category 2'];
@@ -55,7 +56,8 @@ class HomeController extends Controller
         //
         // If a specific "category_id" is requested from homepage, "when()" method executes the function
         // and returns posts with the requested "category_id". 
-        $posts = Post::when(request("category_id"), function ($query) {
+        $posts = Post::when(request("category_id"), function ($query) 
+        {
 
             $query->where("category_id", request("category_id"));
 

@@ -20,9 +20,12 @@ Route::get('/', [\App\Http\Controllers\HomeController::class, 'index'])->name('h
 
 // Simple way to "route" navigation to a page.
 // Good for static pages without dynamic content.
-route::view('contact', 'contact')->name('contact');
+Route::view('contact', 'contact')->name('contact');
 
 // NOTE TO SELF: pay attention to syntax. Extra space breaks a route from working.
-// E.g "route::view('about ', 'about')->name('about');"
-route::view('about', 'about')->name('about');
+// E.g "route::view('about ', 'about')->name('about');".
+Route::view('about', 'about')->name('about');
 
+// Defining url to contain the post id. Route Model -binding.
+// 
+Route::get('posts/{post}', [\App\Http\Controllers\PostController::class, 'show'])->name('post.show');
