@@ -36,7 +36,8 @@
                                 <!-- Blog post -->
                                 <div class="card mb-4">
                                     
-                                    <a href="#!"><img class="card-img-top" src="https://dummyimage.com/700x350/dee2e6/6c757d.jpg" alt="..." /></a>
+                                    <!-- Routing to posts from image -->
+                                    <a href="{{ route('post.show', $post) }}"><img class="card-img-top" src="https://dummyimage.com/700x350/dee2e6/6c757d.jpg" alt="..." /></a>
 
                                     <div class="card-body">
 
